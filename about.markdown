@@ -1,16 +1,16 @@
 ---
 layout: page
 title: "About"
-description: "Hey, this is Hux."
+description: "Hey, this is 92ada."
 header-img: "img/about-bg-walle.jpg"
-multilingual: true
+multilingual: false
 ---
 
 <!-- Language Selector -->
-<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+<!-- <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
     <option value="0" selected> 中文 Chinese </option>
     <option value="1"> 英文 English </option>
-</select>
+</select> -->
 
 <!-- Chinese Version -->
 <div class="zh post-container">
