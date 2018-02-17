@@ -19,7 +19,11 @@ weibo_username:       92ada
 facebook_username:    sinton.lu
 # linkedin_username:  firstname-lastname-idxxxx
 
-
+# Collections
+collections:
+  collections:
+    output: true
+    permalink: /collections/index.html
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.

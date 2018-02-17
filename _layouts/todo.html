@@ -2,9 +2,12 @@
 layout: default
 ---
 <!-- MathJax -->
-{% if page.math %}
-  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-{% endif %}
+<!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script> -->
+
+<!-- To be checked - a raw way (css way) implement of progressbar -->
+<!-- From https://github.com/facelessuser/pymdown-extensions/blob/master/docs/src/markdown/extensions/progressbar.md -->
+<!-- <script src="{{ "/js/progressbar/extra.js " | prepend: site.baseurl }}"></script> -->
+
 
 <!-- Image to hack wechat -->
 <!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
@@ -44,7 +47,7 @@ layout: default
                     {% comment %} if page.subtitle {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% comment %} endif {% endcomment %}
-                    <span class="meta">Updated by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                    <span class="meta">Updated by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ site.time | date: "%B %-d, %Y" }}</span>
                 </div>
             </div>
         </div>
@@ -71,7 +74,7 @@ layout: default
                 </select>
                 {% endif %}
 
-				{{ content }}
+				{{ content | replace: '<li>[ ]', '<li><i class="fa fa-square-o"></i>' | replace: '<li>[]', '<li><i class="fa fa-square-o"></i>' | replace: '<li>[x]', '<li><i class="fa fa-check-square-o"></i>' | replace: '<li>[X]', '<li><i class="fa fa-check-square-o"></i>'  }}
 
                 <hr style="visibility: hidden;">
 

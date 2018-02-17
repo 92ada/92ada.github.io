@@ -2,7 +2,7 @@
 
 ###[View Live Hux Blog &rarr;](https://huangxuan.me)
 
-![](http://huangxuan.me/img/blog-desktop.jpg)
+![](http://huangxuan.me/img/in-readme/blog-desktop.jpg)
 
 
 
@@ -17,7 +17,7 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 **[View Boilerplate Here &rarr;](http://huangxuan.me/huxblog-boilerplate/)**
 
 
-## Porting 
+## Porting
 
 - [**Hexo**](https://github.com/Kaijun/hexo-theme-huxblog) by @kaijun
 - [**React-SSR**](https://github.com/LucasIcarus/huxpro.github.io/tree/ssr) by @LucasIcarus
@@ -56,7 +56,7 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 
 - Big Improvement to the **Navigation Menu** *(especially in Android)*:  Dropping the old, stuttering, low-performance [Bootstrap collapse.js](http://getbootstrap.com/javascript/#collapse),  replaced with an own wrote, [jank free](http://jankfree.org/) navbar menu in a pretty high-performance implementation of [Google Material Design](https://www.google.com/design/spec/material-design/introduction.html).
 
-<img src="http://huangxuan.me/img/blog-md-navbar.gif" width="320" />
+<img src="http://huangxuan.me/img/in-readme/blog-md-navbar.gif" width="320" />
 
 
 ##### New Feature (V1.2)
@@ -157,7 +157,7 @@ tags:
 
 #### SideBar
 
-![](http://huangxuan.me/img/blog-sidebar.jpg)
+![](http://huangxuan.me/img/in-readme/blog-sidebar.jpg)
 
 Seeing more information may be necessary for you to display, from V1.1, a clean, gorgeous **SideBar** is added for you, which provide more area for displaying possible modules. You can enable *(it is default enable)* this feature by simply config:
 
@@ -217,7 +217,7 @@ friends: [
 
 #### Keynote Layout
 
-![](http://huangxuan.me/img/blog-keynote.jpg)
+![](http://huangxuan.me/img/in-readme/blog-keynote.jpg)
 
 There is a increasing tendency to use Open Web technology to create keynotes, presentations, like Reveal.js, Impress.js, Slides, Prezi etc. I consider a modern blog should have abilities to post these HTML based presentation easily also abilities to play it directly.
 

@@ -5,3 +5,7 @@ npm-debug.log
 */.DS_Store
 */*/.DS_Store
 *.sh
+_posts/201x-xx-xx-templete.md
+_includes/about
+_includes/other
+_collections
