@@ -1,29 +1,21 @@
 
-## Cyber Monday 所在周！
-#### 明天
+## 是课程被取消了的巴适的暑假
+#### GRE Everyday Work
 
-- [ ] 写ANLP读书笔记（17章，JM2）
-- [ ] rss总结（写一点点就好）
-- [ ] ANLP: lab过一遍
+- [ ] 单词150
+- [ ] 填空50题
+- [ ] issue outline 两篇
 
-#### 周计划
+#### CS Interesting Exploration
 
-![Progress](http://progressed.io/bar/28?title=progress)
-- [ ] ANLP: lab5 *Going Further* 部分
-- [ ] ANLP: lab过一遍
-- [ ] RSS:
+- [ ] web／生产力工具：chrome插件for doc reading
+- [ ] 算法：rrt prm可视化实现
+- [ ] 测试：gtest + LP problem调试
 
-## 月计划
+#### CS Project
 
-* 2017年12月
-  - [ ] 15号之前：备考啊备考
-  - [ ] 23号之后：kubit-q begin
-  - [ ] 23号之后：github page readme
-  - [ ] 23号之后：blog 添加英文
-  - [ ] 23号之后：rrt prm实现
-  - [ ] 23号之后：latex公式替代
-
-* 2018年1月
-  - [ ] 用arduino做会画画的机器人
-  - [ ] 用arduino做一个小游戏机
-  - [ ] 用arduino做一个小无人机
+- [ ] web／产品：SUStackOverflow
+- [ ] 算法／nlp：论文复现
+- [ ] web／nlp／爬虫：话题提醒
+- [ ] 作品集：游戏设计
+- [ ] arduino：画画机器人

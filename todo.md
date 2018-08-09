@@ -3,7 +3,7 @@ layout:       todo
 title:        "TODO"
 subtitle:    
 author:       "92ada"
-header-img:   "img/todo-bg.jpg"
+header-img:   "img/todo-bg.jpeg"
 header-mask:  0.3
 catalog:      true
 multilingual: false
